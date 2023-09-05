@@ -33,3 +33,5 @@ Further, we will also be creating a softcore Microblaze IP for establishing the 
 ![MicroBlaze](https://github.com/bsp9991/Resource-efficient-multi-PUF-Design/assets/130135576/8f06effe-d5e5-4619-8465-838810245d05)
 
 Corresponding Vitis codes are written which uses the established UART protocol to send control signals and receive responses from implemented PUF.
+
+BEL constraint mode along with the P-block allocation method is used for manual placement and routing.
