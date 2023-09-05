@@ -5,7 +5,7 @@ PICO PUF
 
 ![PICO_PUF](https://github.com/bsp9991/Resource-efficient-multi-PUF-Design/assets/130135576/45ce2d32-bbdd-4895-a4fe-3dd84f91d3db)
 
-Below circuit refers to MPUF-t1
+The below circuit refers to MPUF-t1
 
 ![mpuf_t1](https://github.com/bsp9991/Resource-efficient-multi-PUF-Design/assets/130135576/96bdc4cc-30cf-4e57-98ce-80ffa56cdf1c)
 
@@ -31,3 +31,5 @@ Respective Verilog, C++, and MATLAB codes along with constraint files are given.
 Further, we will also be creating a softcore Microblaze IP for establishing the UART protocol. It enables us to send corresponding challenges, control signals, and receive responses.
 
 ![MicroBlaze](https://github.com/bsp9991/Resource-efficient-multi-PUF-Design/assets/130135576/8f06effe-d5e5-4619-8465-838810245d05)
+
+Corresponding Vitis codes are written which uses the established UART protocol to send control signals and receive responses from implemented PUF.
