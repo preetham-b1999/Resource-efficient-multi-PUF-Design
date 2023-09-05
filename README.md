@@ -1,6 +1,8 @@
 # Resource-Efficient-Multi-PUF-Design
 A multi-PUF consists of both weak PUF and strong PUF. Here we will design a weak PUF circuit with PICO PUFs and XOR gates, and consider FFAPUF as our strong PUF. Two Multi PUF techniques are proposed below. Let the challenge bits be C1 to Cn. We are considering 32-bit input challenges, so n is equal to 32.
 
+Two multi-PUF techniques MPUF-t1 and MPUF-t2 are proposed.
+
 PICO PUF
 
 ![PICO_PUF](https://github.com/bsp9991/Resource-efficient-multi-PUF-Design/assets/130135576/45ce2d32-bbdd-4895-a4fe-3dd84f91d3db)
